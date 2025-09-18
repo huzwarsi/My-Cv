@@ -1,7 +1,7 @@
 // Show Profile Photo
 document.getElementById("showPhoto").addEventListener("click", () => {
   const card = document.getElementById("photoCard");
-  card.innerHTML = `<img src="pic.png" alt="Profile Photo" 
+  card.innerHTML = `<img src="Image.jpeg" alt="Profile Photo" 
                      style="width:520px;height:260px;border-radius:8px;">`;
 });
 
