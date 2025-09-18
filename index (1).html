@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="wrapper">
+    <h1>My CV</h1>
+
+    <!-- Profile Image -->
+    <section class="card" id="photoCard">
+      <button id="showPhoto">See Profile Photo</button>
+    </section>
+
+    <!-- Introduction -->
+    <section class="card" id="bioCard">
+      <p id="bioText" style="display:none;">
+        Hi! I’m Huzaifa, a Web & App Development student who loves coding and learning new things.
+      </p>
+      <button id="showBio">See Introduction</button>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="card" id="formCard">
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <button id="showForm">Open Contact Form</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
